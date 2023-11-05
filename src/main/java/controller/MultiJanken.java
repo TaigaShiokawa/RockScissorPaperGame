@@ -61,41 +61,41 @@ public class MultiJanken extends HttpServlet {
         String result;
         
         if(myHand == 0 && cpHand1 == 0 && cpHand2 ==1) {
-            result = "あなたとPC1の勝ちです";
+            result = "あなたとコンピュータ1の勝ちです";
         } else if(myHand == 0 && cpHand1 == 0 && cpHand2 ==2) {
-            result = "PC2の勝ちです";
+            result = "コンピュータ2の勝ちです";
         } else if(myHand == 0 && cpHand1 == 1 && cpHand2 == 0) {
-            result = "あなたとPC2の勝ちです";
+            result = "あなたとコンピュータ2の勝ちです";
         } else if(myHand == 0 && cpHand1 == 1 && cpHand2 == 1) {
             result = "あなたの勝ちです";
         } else if(myHand == 0 && cpHand1 == 2 && cpHand2 == 0) {
-            result = "PC1の勝ちです";
+            result = "コンピュータ1の勝ちです";
         } else if(myHand == 0 && cpHand1 == 2 && cpHand2 == 2) {
-            result = "PC1とPC2の勝ちです";
+            result = "コンピュータ1とコンピュータ2の勝ちです";
         } else if(myHand == 1 && cpHand1 == 0 && cpHand2 ==0) {
-            result = "PC1とPC2の勝ちです";
+            result = "コンピュータ1とコンピュータ2の勝ちです";
         } else if(myHand == 1 && cpHand1 == 0 && cpHand2 ==1) {
-            result = "PC1の勝ちです";
+            result = "コンピュータ1の勝ちです";
         } else if(myHand == 1 && cpHand1 == 1 && cpHand2 == 0) {
-            result = "PC2の勝ちです";
+            result = "コンピュータ2の勝ちです";
         } else if(myHand == 1 && cpHand1 == 1 && cpHand2 == 2) {
-            result = "あなたとPC1の勝ちです";
+            result = "あなたとコンピュータ1の勝ちです";
         } else if(myHand == 1 && cpHand1 == 2 && cpHand2 == 1) {
-            result = "あなたとPC2の勝ちです";
+            result = "あなたとコンピュータ2の勝ちです";
         } else if(myHand == 1 && cpHand1 == 2 && cpHand2 == 2) {
             result = "あなたの勝ちです";
         } else if(myHand == 2 && cpHand1 == 0 && cpHand2 ==0) {
             result = "あなたの勝ちです";
         } else if(myHand == 2 && cpHand1 == 0 && cpHand2 ==2) {
-            result = "あなたとPC2の勝ちです";
+            result = "あなたとコンピュータ2の勝ちです";
         } else if(myHand == 2 && cpHand1 == 1 && cpHand2 == 1) {
-            result = "PC1とPC2の勝ちです";
+            result = "コンピュータ1とコンピュータ2の勝ちです";
         } else if(myHand == 2 && cpHand1 == 1 && cpHand2 == 2) {
-            result = "PC1の勝ちです";
+            result = "コンピュータ1の勝ちです";
         } else if(myHand == 2 && cpHand1 == 2 && cpHand2 == 0) {
-            result = "あなたとPC1の勝ちです";
+            result = "あなたとコンピュータ1の勝ちです";
         } else if(myHand == 2 && cpHand1 == 2 && cpHand2 == 1) {
-            result = "PC2の勝ちです";
+            result = "コンピュータ2の勝ちです";
         } else {
             result = "あいこでっす";
         }
