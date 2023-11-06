@@ -18,5 +18,4 @@ public class StartScreen extends HttpServlet {
 		String view = "WEB-INF/views/startScreen.jsp";
 		request.getRequestDispatcher(view).forward(request, response);
 	}
-
 }

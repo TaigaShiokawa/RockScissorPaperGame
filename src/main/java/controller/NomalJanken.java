@@ -17,7 +17,6 @@ public class NomalJanken extends HttpServlet {
 
 		String view = "/WEB-INF/views/nomalJanken.jsp";
 		request.getRequestDispatcher(view).forward(request, response);
-
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -45,7 +44,7 @@ public class NomalJanken extends HttpServlet {
 		String[] choices = { "👊", "✌️", "✋" };
 
 		String result;
-		int machResult = (myHand - cpHand + 3) % 3; //剰余を求めて勝敗を判定
+		int machResult = (myHand - cpHand + 3) % 3; //あまりを求めて勝敗を判定
 
 		switch (machResult) {
 			case 0:result = "あいこです";break;
